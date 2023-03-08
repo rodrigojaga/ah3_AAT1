@@ -160,7 +160,7 @@ public class vendedorActualizar extends javax.swing.JFrame {
     usuarioPrincipal up = new usuarioPrincipal();
         
     modificar(up.fila);
-        
+    
       
        
         
@@ -169,12 +169,12 @@ public class vendedorActualizar extends javax.swing.JFrame {
     
     public void datos(int cod){
         
-       txtcod.setText(vendedor.vendedores.get(cod).getCodigo()+" ");
-       txtnom.setText(vendedor.vendedores.get(cod).getNombre()+" ");
-       txtcaj.setText(vendedor.vendedores.get(cod).getCaja()+" ");
-       tctven.setText(vendedor.vendedores.get(cod).getVentas()+" ");
-       txtgen.setText(vendedor.vendedores.get(cod).getGenero()+" ");
-       txtpass.setText(vendedor.vendedores.get(cod).getContrasena()+" ");
+       txtcod.setText(vendedor.vendedores.get(cod).getCodigo()+"");
+       txtnom.setText(vendedor.vendedores.get(cod).getNombre());
+       txtcaj.setText(vendedor.vendedores.get(cod).getCaja());
+       tctven.setText(vendedor.vendedores.get(cod).getVentas());
+       txtgen.setText(vendedor.vendedores.get(cod).getGenero());
+       txtpass.setText(vendedor.vendedores.get(cod).getContrasena());
        
       
     }
@@ -182,21 +182,13 @@ public class vendedorActualizar extends javax.swing.JFrame {
   
    
    public void modificar(int cod){
-       //int a = Integer.parseInt(txtcod.getText())+0;
-       
-       vendedor.vendedores.set(cod, (new vendedor(cod,txtnom.getText(),txtcaj.getText(),
+       vendedor.vendedores.set(cod, (new vendedor(Integer.parseInt(txtcod.getText()),txtnom.getText(),txtcaj.getText(),
        tctven.getText(),txtgen.getText(),txtpass.getText())));
        usuarioPrincipal up = new usuarioPrincipal();
        up.setVisible(true);
        dispose();
    }
    
-   
-       
-            
-        
-   
-    
     public static void main(String args[]) {
         /* Set the Nimbus look and feel */
         //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">

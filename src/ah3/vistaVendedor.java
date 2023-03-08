@@ -15,8 +15,9 @@ public class vistaVendedor extends javax.swing.JFrame {
      * Creates new form vistaVendedor
      */
     public vistaVendedor() {
-        this.setLocationRelativeTo(null);
+        
         initComponents();
+        this.setLocationRelativeTo(null);
     }
 
     /**

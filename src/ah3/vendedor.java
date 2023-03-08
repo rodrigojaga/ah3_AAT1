@@ -5,7 +5,7 @@ import java.util.LinkedList;
 public class vendedor {
         
         public static LinkedList<vendedor> vendedores = new LinkedList<>();
-        public static LinkedList<vendedor> vendedores1 = new LinkedList<>();
+        //public static LinkedList<vendedor> vendedores1 = new LinkedList<>();
         private int codigo;
         private String nombre;
         private String caja;

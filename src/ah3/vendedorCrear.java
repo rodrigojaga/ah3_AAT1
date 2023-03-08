@@ -208,23 +208,7 @@ public class vendedorCrear extends javax.swing.JFrame {
         }else{
             listar();
         }
-        
-//        up.a = codVendedor.getText();
-//        up.b =nomVendedor.getText();
-//        up.c =cajaVendedor.getText();
-//        up.d =ventasVendedor.getText();
-//        up.e =helicpteroapache.getText();
-        //up.info();
-        
-//        Object[] fila = new Object[5];
-//        fila[0] = codVendedor.getText();
-//        fila[1] = nomVendedor.getText();
-//        fila[2] = cajaVendedor.getText();
-//        fila[3] = ventasVendedor.getText();
-//        fila[4] = helicpteroapache.getText();
-//        up.t1.addRow(fila);
 
-        
     }//GEN-LAST:event_jButton2ActionPerformed
     
     public void listar(){
@@ -238,30 +222,7 @@ public class vendedorCrear extends javax.swing.JFrame {
         dispose();
     }
     
-//    public ArrayList<vendedor> as(){
-//        Objetc[] a = new Object[5];
-//        a[0] = codVendedor.getText();
-//        a[1] = nomVendedor.getText();
-//        a[2] = cajaVendedor.getText();
-//        a[3] = ventasVendedor.getText(),
-//        a[4] = helicpteroapache.getText(),
-//        a[5] =contraVendedor.getText()));
-//        return ;
-//    }
-  
-   
-    
-    
- 
 
-    
-   
-
-
-   
-
-   
- 
     public static void main(String args[]) {
         /* Set the Nimbus look and feel */
         //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
